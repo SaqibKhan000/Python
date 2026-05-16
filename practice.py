@@ -1,6 +1,6 @@
-password = ""
 
-while len(password) < 8:
-    password = input("Enter password (8+ characters): ")
-
-print("Password accepted")
+x = 10
+def func():
+    x = 99
+    print(x)
+print(x)
