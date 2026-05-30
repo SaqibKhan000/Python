@@ -1,15 +1,12 @@
-class Animal:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+with open("data.txt", "a") as file:
+    file.write("Hello, M Saqib Khan\n")
 
-    def eat(self):
-        print(self.name, "is eating")
+with open("data.txt", "a") as file:
+    file.write("Hello, World!")
 
-class Dog(Animal):
-    def __init__(self, name, age, breed):
-        super().__init__(name, age)
-        self.breed = breed
 
-d = Dog("Buddy", 5, "Golden")
-d.eat()
+with open("data.txt", "r") as file:
+    content = file.read()
+    print(content)
+
+    
