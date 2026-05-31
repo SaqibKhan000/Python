@@ -1,12 +1,9 @@
-with open("data.txt", "a") as file:
-    file.write("Hello, M Saqib Khan\n")
-
-with open("data.txt", "a") as file:
-    file.write("Hello, World!")
-
-
-with open("data.txt", "r") as file:
-    content = file.read()
-    print(content)
-
-    
+num1 = 10
+num2 = 10
+try:
+    print(num1 / num2)
+except Exception:
+    print("Error occurred!")
+else:
+    print("This is else block!")
+finally:    print("This is finally block!")
