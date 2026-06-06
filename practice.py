@@ -1,4 +1,9 @@
-list26 = [[1, 2], [3, 4], [5, 6]]
-def flatten_list(list):
-    return [item for item in list for item in item]
-print(flatten_list(list26))
+
+
+# Use while loop to print the output in the same line
+
+i = 0
+while(i < 5):
+     print(i, end=' ')
+     i += 1  
+     
