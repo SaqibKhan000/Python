@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "amount": 500.0,
+    "category": "Food",
+    "description": "Groceries",
+    "date": "2026-06-07"
+  },
+  {
+    "id": 2,
+    "amount": 200.0,
+    "category": "Transport",
+    "description": "Bus-fare",
+    "date": "2026-06-07"
+  }
+]
